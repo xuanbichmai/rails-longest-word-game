@@ -1,0 +1,11 @@
+<h1>LONGEST WORD RESULT</h1>
+
+<p>Your word: <%= @attempt %></p>
+<p>Time Taken to answer: <%= @result[:time] %></p>
+<p>Translation: <%= @result[:translation] %></p>
+<p>Yor score: <%= @result[:score] %></p>
+<p>Message: <%= @result[:message] %></p>
+<button>
+  <%= link_to "Guess new word", game_path %>
+</button>
+
